@@ -1,0 +1,73 @@
+{
+	"info": {
+		"_postman_id": "42573229-2c19-4053-af16-a33275cd3b1f",
+		"name": "postman_collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "47743220",
+		"_collection_link": "https://krc0720-4716021.postman.co/workspace/RAVICHANDRAN-K's-Workspace~11876cf1-2be6-4b18-8c87-9aed94a564db/collection/47743220-42573229-2c19-4053-af16-a33275cd3b1f?action=share&source=collection_link&creator=47743220"
+	},
+	"item": [
+		{
+			"name": "Root Health Check",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Mindset",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"message\": \"I’m Ravichandran, and while everyone sees me as a fresher, how do I prove I can think and deliver like an experienced mind?\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:8000/chat"
+			},
+			"response": []
+		},
+		{
+			"name": "Readiness",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"message\": \"I understand. I'm consistent with my goals, but what's the best way to show companies that I am truly job-ready?\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:8000/chat"
+			},
+			"response": []
+		},
+		{
+			"name": "AI trends",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"message\": \"What’s one cool thing happening in AI right now? Give me only 3 bullet points in short.\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:8000/chat"
+			},
+			"response": []
+		}
+	]
+}
